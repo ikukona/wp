@@ -5,6 +5,7 @@
 body {
     background-color: black;
     font-family: BlenderPro;
+    font-weight: lighter !important;
 }
 .main {
     background-color: black;
