@@ -1,6 +1,6 @@
 @font-face {
     font-family: BlenderPro;
-    src: url(../../fonts/BlenderPro-Medium.ttf);
+    src: url(./fonts/BlenderPro-Medium.ttf);
 }
 body {
     background-color: black;
