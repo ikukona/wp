@@ -1,6 +1,10 @@
+@font-face {
+    font-family: BlenderPro;
+    src: url(/fonts/BlenderPro-Medium.ttf);
+}
 body {
     background-color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: BlenderPro;
 }
 .main {
     color: white;
