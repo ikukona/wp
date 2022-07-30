@@ -1,6 +1,6 @@
 @font-face {
     font-family: BlenderPro;
-    src: url(./fonts/BlenderPro-Medium.ttf);
+    src: url(./fonts/BlenderPro-Medium.ttf) format("TrueType");
 }
 body {
     background-color: black;
@@ -8,10 +8,16 @@ body {
 }
 .main {
     color: white;
-    text-shadow: 5px 5px 30px rgb(255, 255, 255);
+    text-shadow: 5px 5px 15px rgba(255, 255, 255, 0.719);
     text-align: center;
     margin-top: 20px;
-    
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: ease-in-out 0.5s;
+    box-shadow: 0px 20px 0px 0px white;
+    border-radius: 5px;
+    border-color: white;
+    border: solid;
 }
 h1 {
     font-size: 50px;
@@ -22,4 +28,7 @@ h2{
 
 p {
     font-size: 20px;
+}
+.main:hover {
+    box-shadow: 0px 30px 0px 0px white;
 }
