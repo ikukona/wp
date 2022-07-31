@@ -1,5 +1,4 @@
 # wp
- this is like the website and all so awesome
- awesome sauce
-# why
-idk i can lol
+ this is a webpage for me and my socials, i was dumb enough not to use caard or something
+# please
+ do not bully me for the "code" :(
