@@ -11,6 +11,9 @@ body {
     background-attachment: fixed;
 }
 
+.cont {
+    position: absolute;
+}
 
 .main {
     
@@ -18,10 +21,10 @@ body {
     text-shadow: 5px 5px 15px #ffd80098;
     text-align: center;
     margin-top: 20px;
-    margin-left: 20%;
-    margin-right: 20%;
+    /* margin-left: 20%;
+    margin-right: 20%; */
     background-color: #000000;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.3s;
     box-shadow: 0px 0px 0px 0px #ffffff;
     border-radius: 0px;
     vertical-align: middle;
@@ -39,7 +42,7 @@ p {
     font-size: 20px;
 }
 .main:hover {
-    box-shadow: 0px 15px 0px 0px rgb(255, 255, 255);
+    box-shadow: 15px 15px 0px 0px rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
 }
 div {
