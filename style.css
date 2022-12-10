@@ -63,21 +63,23 @@ h1 {
 .sarga {
     color: #ffd800 !important;
     text-shadow: 0px 0px 10px #ffd800 ;
+    transition: 500ms;
 }
 
 .sarga:hover{
-    text-shadow: 0px 0px 50px #ffd800 ;
+    text-shadow: 0px 0px 15px #ffd800 ;
 
 }
 
 .sarga2 {
     color: #00000000 !important;
     text-shadow: 0px 0px 10px #ffd90000 ;
+    transition: 500ms;
 }
 
 .sarga2:hover{
     color: #ffd800 !important;
-    text-shadow: 0px 0px 50px #ffd800 ;
+    text-shadow: 0px 0px 15px #ffd800 ;
 
 }
 
