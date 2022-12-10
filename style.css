@@ -4,6 +4,8 @@
 }
 body, main {
     font-family: BlenderPro;
+    background-color: #000000;
+    color: #ffd800;
 }
 h1 {
     font-size: 65px;
@@ -29,27 +31,45 @@ h1 {
     text-decoration: none;
  }
  .nagyona {
-    color: #ffbf00;
-    text-shadow: 5px 5px 20px #ffbf00b4;
+    color: #FC004A;
+    text-shadow: 5px 5px 20px #FC004Ab4;
     transition: 500ms;
     transition-timing-function: ease;
     letter-spacing: 0px;
     
  }
  .nagyona:hover {
-    color: #ffd900;
-    text-shadow: 0px 0px 20px #ffbf00;
+    color: #00FFFF;
+    text-shadow: 0px 0px 20px #00FFFF;
     letter-spacing: 2px;
  }
 
+ .aminemb {
+    transition: 500ms;
+    transition-timing-function: ease;
+ }
 
+.aminemb{
+    color: transparent !important;
+    letter-spacing: -25px;
+}
+
+.aminemb:hover{
+    letter-spacing: normal;
+    color: white !important;
+}
+
+b {
+    color: white !important;
+    letter-spacing: normal !important;
+}
 
 .navover {
     background-color: black;
 }
 
 .nagyonnavitem {
-    font-size: 25px;
+    font-size: 20px;
 }
  
 .nagyonnavitem:focus {
