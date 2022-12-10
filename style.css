@@ -52,6 +52,7 @@ h1 {
 .aminemb{
     color: transparent !important;
     letter-spacing: -25px;
+    transition-timing-function: ease;
 }
 
 .aminemb:hover{
