@@ -27,6 +27,11 @@ h1 {
     
  }
 
+.plc3{
+    background-image: url(placeholder3.png) !important;
+    background-repeat: repeat !important;
+}
+
  a {
     text-decoration: none;
  }
