@@ -4,7 +4,7 @@
 }
 body, main {
     font-family: BlenderPro;
-    background-color: #df2d2d;
+    background-color: #000000;
     color: #ffd800;
 }
 h1 {
@@ -45,15 +45,45 @@ h1 {
  }
  .row{border:0px;margin-right:0;margin-left:0;max-width:100%; }
 
- .aminemb {
-    transition: 500ms;
-    transition-timing-function: ease;
- }
 
 .aminemb{
     color: transparent !important;
     letter-spacing: -25px;
     transition-timing-function: ease;
+    transition: 500ms;
+}
+
+.aminemb2{
+    color: rgba(255, 255, 255, 0);
+    letter-spacing: -40px;
+    transition-timing-function: ease;
+    transition: 500ms;
+}
+
+.sarga {
+    color: #ffd800 !important;
+    text-shadow: 0px 0px 10px #ffd800 ;
+}
+
+.sarga:hover{
+    text-shadow: 0px 0px 50px #ffd800 ;
+
+}
+
+.sarga2 {
+    color: #00000000 !important;
+    text-shadow: 0px 0px 10px #ffd90000 ;
+}
+
+.sarga2:hover{
+    color: #ffd800 !important;
+    text-shadow: 0px 0px 50px #ffd800 ;
+
+}
+
+.aminemb2:hover{
+    letter-spacing: normal;
+    color: white;
 }
 
 .aminemb:hover{
@@ -62,7 +92,7 @@ h1 {
 }
 
 b {
-    color: white !important;
+    color: white;
     letter-spacing: normal !important;
 }
 
