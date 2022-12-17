@@ -1,6 +1,6 @@
 @font-face {
     font-family: BlenderPro;
-    src: url(./fonts/BlenderPro-Medium.ttf) format("TrueType");
+    src: url(fonts/Albert-Sans/AlbertSans-VariableFont_wght.ttf) format("TrueType");
 }
 body, main {
     font-family: BlenderPro;
@@ -10,27 +10,19 @@ body, main {
 h1 {
     font-size: 65px;
 }
- .plc {
-    background-image: url(placeholder.gif);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    filter: opacity(100%);
-    
- }
- .plc2 {
-    background-image: url(placeholder2.gif);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    filter: opacity(100%);
-    
- }
-
 .plc3{
     background-image: url(placeholder3.png) !important;
     background-repeat: repeat !important;
 }
+
+.linkbutton {
+    border-width: 5px;
+    border-left: 3rem;
+    border-right: 3rem;
+    border-color: #00FFFF;
+    border-style: solid;
+}
+
 
  a {
     text-decoration: none;
@@ -116,7 +108,7 @@ b {
 }
 
  .jelen {
-    font-weight: 900;
+    font-weight: 600;
  }
  .disabled {
     color: transparent;
