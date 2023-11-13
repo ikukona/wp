@@ -16,11 +16,18 @@ h1 {
 }
 
 .linkbutton {
-    border-width: 5px;
-    border-left: 3rem;
-    border-right: 3rem;
+    /* border-width: 0cap;
+    border-left: 15rem;
+    border-right: 15rem;
+    border-top: 15rem;
+    border-bottom: 15rem;
     border-color: #00FFFF;
     border-style: solid;
+    padding: 15px;
+    background-color: #FC004A; */
+    background-color: #FC004A;
+    padding: 15px;
+    text-align: center;
 }
 
 
